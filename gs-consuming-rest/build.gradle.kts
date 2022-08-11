@@ -5,3 +5,7 @@ plugins {
 dependencies {
   implementation("io.dropwizard:dropwizard-client")
 }
+
+application {
+  mainClass.set("ConsumingRestApplicationKt")
+}
