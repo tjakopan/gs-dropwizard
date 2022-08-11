@@ -17,7 +17,7 @@ class ConsumingRestApplication : Application<Configuration>() {
 
   override fun run(configuration: Configuration, environment: Environment) {
     val client = JerseyClientBuilder(environment).build(name)
-    val quote = client.target("https://quoters.apps.pcfone.io/api/random")
+    val quote = client.target("https://gistcdn.githack.com/ayan-b/ff0441b5a8d6c489b58659ffb849aff4/raw/e1c5ca10f7bea57edd793c4189ea8339de534b45/response.json")
       .request()
       .get(Quote::class.java)
     logger.info(quote.toString())

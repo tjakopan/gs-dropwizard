@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="RestServiceApplicationKt" type="JetRunConfigurationType" nameIsGenerated="true">
     <option name="MAIN_CLASS_NAME" value="RestServiceApplicationKt" />
-    <module name="gs-rest-service.main" />
+    <module name="gs-dropwizard.gs-rest-service.main" />
     <option name="PROGRAM_PARAMETERS" value="server" />
     <shortenClasspath name="NONE" />
     <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
